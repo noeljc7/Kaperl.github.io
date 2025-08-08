@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - Cooperativa KAPÉ R.L.</title>
+    <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="{{ '/' | relative_url }}">
+                    <img src="{{ '/assets/images/kp.png' | relative_url }}" alt="Logo kape">
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+                    <li><a href="{{ '/servicios/' | relative_url }}">Servicios</a></li>
+                    <li><a href="{{ '/noticias/' | relative_url }}">Noticias</a></li>
+                    <li><a href="{{ '/about/' | relative_url }}">Sobre Nosotros</a></li>
+                    <li><a href="{{ '/contact/' | relative_url }}">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Cooperativa KAPÉ R.L. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/cooperativakapedetamahu" target="_blank" aria-label="Facebook">
+                    <img src="{{ '/assets/images/iconfb.png' | relative_url }}" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/kape_tamahu/" target="_blank" aria-label="Instagram">
+                    <img src="{{ '/assets/images/instagram.png' | relative_url }}" alt="Instagram">
+                </a>
+                <a href="#" target="_blank" aria-label="X">
+                    <img src="{{ '/assets/images/twitter.png' | relative_url }}" alt="X">
+                </a>
+                <a href="#" target="_blank" aria-label="TikTok">
+                    <img src="{{ '/assets/images/tik-tok.png' | relative_url }}" alt="TikTok">
+                </a>
+                <a href="#" target="_blank" aria-label="YouTube">
+                    <img src="{{ '/assets/images/youtube.png' | relative_url }}" alt="YouTube">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

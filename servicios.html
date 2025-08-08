@@ -1,0 +1,29 @@
+---
+layout: default
+title: Servicios
+permalink: /servicios/
+---
+
+<div class="content-section">
+  <div class="container">
+    <h1>Nuestros Servicios</h1>
+    <div class="blog-posts-grid">
+      {% for servicio in site.servicios %}
+      <div class="blog-post-card">
+        <a href="{{ servicio.url | relative_url }}">
+          {% if servicio.image %}
+          <img src="{{ servicio.image | relative_url }}" alt="{{ servicio.title }}">
+          {% endif %}
+          <div class="post-content">
+            <h3>{{ servicio.title }}</h3>
+            {% if servicio.date %}
+            {% endif %}
+            <p>{{ servicio.excerpt | strip_html | truncatewords: 20 }}</p>
+            <span class="read-more-btn">Leer más</span>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

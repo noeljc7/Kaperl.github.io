@@ -1,0 +1,19 @@
+title: Cooperativa Kapé R.L.
+email: tu-email@ejemplo.com
+description: "Impulsando el Futuro Agrícola de Tamahú."
+baseurl: "" # Deja esto vacío para desplegar en tu propio dominio.
+url: "http://tu-dominio.com" # Si tienes un dominio personalizado.
+future: true
+twitter_username: jekyllrb
+github_username:  jekyll
+permalink: /:categories/:title/ # Esta configuración ya la tenías y es correcta.
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+collections:
+  servicios:
+    output: true
+    permalink: /:collection/:name/

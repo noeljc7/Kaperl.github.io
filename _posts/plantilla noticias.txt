@@ -1,0 +1,23 @@
+---
+layout: single-post
+title: Título de la Noticia
+author: Cooperativa KAPÉ R.L.
+date: 2025-08-08 10:00:00 -0600
+image: /assets/images/imagen-de-la-noticia.jpeg
+excerpt: "Un breve resumen de la noticia que aparecerá en la página principal de noticias."
+---
+
+<img src="{{ page.image | relative_url }}" alt="Imagen principal de la noticia" class="post-main-image">
+
+<h1 class="main-title">{{ page.title }}</h1>
+<p class="post-meta">Publicado el {{ page.date | date: "%d de %B, %Y" }} por {{ page.author }} | <a href="{{ '/noticias/' | relative_url }}">Volver a Noticias</a></p>
+
+Escribe aquí el primer párrafo de tu noticia en Markdown.
+
+### Título de una sección
+
+Usa las viñetas para crear listas:
+* Punto clave 1.
+* Punto clave 2.
+
+Puedes usar texto en **negrita** o en *cursiva*.
