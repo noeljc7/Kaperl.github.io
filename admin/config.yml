@@ -1,7 +1,6 @@
 backend:
-  name: github
-  repo: tu-usuario/tu-repositorio # Reemplaza con tu usuario y nombre de repositorio
-  branch: main # O la rama que uses, como 'master'
+  name: git-gateway
+  branch: main # o la rama que uses
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
