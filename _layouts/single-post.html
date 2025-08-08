@@ -5,19 +5,7 @@ layout: default
 <main>
     <section class="content-section blog-single-post">
         <div class="container">
-            <h1 class="main-title">{{ page.title }}</h1>
-            
-            <p class="post-meta">Publicado el {{ page.date | date: "%d de %B, %Y" }} por {{ page.author }}</p>
-            
-            {% if page.image %}
-                <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="post-main-image">
-            {% endif %}
-
-            <div class="post-content">
-                {{ content }}
-            </div>
-            
-            <p><a href="{{ '/noticias/' | relative_url }}">Volver a Noticias</a></p>
+            {{ content | markdownify }}
         </div>
     </section>
 </main>
