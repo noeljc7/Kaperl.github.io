@@ -7,19 +7,10 @@ image: /assets/images/4.jpg
 excerpt: pues veamos esto se supone que es el cuerpo del contenido asique
   kladlkjfklnxlvknxclvnxlvn
 ---
-<img src="{{ page.image | relative_url }}" alt="Descripción de la imagen" class="post-main-image">
+borre todo haber que va a pasar ahora
 
-<h1 class="main-title">{{ page.title }}</h1>
-<p class="post-meta">Publicado el {{ page.date | date: "%d de %B, %Y" }} por {{ page.author }} | <a href="{{ '/noticias/' | relative_url }}">Volver a Noticias</a></p>
+## **esto para que sera**
 
-Escribe aquí el primer párrafo de tu noticia en Markdown.
-bueno bamos a provar que tal ba esto
+**oh ya veo**
 
-### que le ponga subtitulo dice
-
-apoco si mi estimado
-
-* **Punto clave 1:** Destacar
-* **Punto clave 2:** Deescripton
-
-También puedesnegritashdflkshdfkdshfkhsdjfksdfnbsdkfs seguir escribiendo tantos párrafos como necesites. El formato se aplicará automáticamente.
+**para eso sirve xd**
