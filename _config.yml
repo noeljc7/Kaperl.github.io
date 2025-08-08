@@ -17,3 +17,4 @@ collections:
   servicios:
     output: true
     permalink: /:collection/:name/
+    baseurl: /Kaperl.github.io
