@@ -1,0 +1,14 @@
+[build]
+  command = "jekyll build"
+  publish = "_site"
+
+[[redirects]]
+  from = "/*"
+  to = "/admin"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/.netlify/identity/*"
+  to = "/admin/index.html"
+  status = 200
