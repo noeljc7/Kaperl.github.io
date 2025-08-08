@@ -1,0 +1,2 @@
+# Redirect for Netlify Identity
+/.netlify/identity /admin 200
