@@ -10,9 +10,7 @@ excerpt: El pasado jueves 24 de julio, un grupo de mujeres del municipio de
   Nacional de Bosques (INAB) de Alta Verapaz en conjunto a la Cooperativa Kapé
   de Tamahú.
 ---
-##### El pasado jueves 24 de julio, un grupo de mujeres del municipio de tamahú, participaron en una capacitación sobre la elaboración de artesanias utilizando hojas de pino, la iniciativa fue posible gracias al Instituto Nacional de Bosques (INAB) de Alta Verapaz en conjunto a la Cooperativa Kapé de Tamahú.
-
-La jornada de capacitación, que se llevo a cabo en un ambiente de aprendizaje y colaboración, permitió a las participantes adquirir nuevas habilidades en el manejo y transformación de las hojas de pino, un recurso abundante en la región. La instructora del INAB guio a las asistentes a traves de diversas tecnicas, desde la preparación del material hasta el diseño.
+acitación, que se llevo a cabo en un ambiente de aprendizaje y colaboración, permitió a las participantes adquirir nuevas habilidades en el manejo y transformación de las hojas de pino, un recurso abundante en la región. La instructora del INAB guio a las asistentes a traves de diversas tecnicas, desde la preparación del material hasta el diseño.
 
 La representante del INAB y el representante de la Cooperativa Kapé destacarón la importancia de estas capacitaciones para empoderar economicamente a las mujeres de la comunidad y promover practicas sostenibles que valoren los productos del bosque mas allá de la madera.
 "Estamos convencidos de que estas habilidades no solo les abriran puertas a nuevas oportunidades de negocio, sino que tambien fortalecerán el vinculo entre las comunidades y la gestión responsable de nuestros recursos forestales" afirmo uno de los facilitadores.
