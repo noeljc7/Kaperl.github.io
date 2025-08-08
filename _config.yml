@@ -1,12 +1,15 @@
 title: Cooperativa Kapé R.L.
 email: tu-email@ejemplo.com
 description: "Impulsando el Futuro Agrícola de Tamahú."
-baseurl: "" # Deja esto vacío para desplegar en tu propio dominio.
-url: "http://tu-dominio.com" # Si tienes un dominio personalizado.
+baseurl: "" # Para Netlify, esto debe estar vacío.
+url: "https://tu-dominio.netlify.app" # Reemplaza esto con la URL de tu sitio en Netlify
 future: true
 twitter_username: jekyllrb
-github_username:  jekyll
-permalink: /:categories/:title/ # Esta configuración ya la tenías y es correcta.
+github_username: jekyll
+permalink: /:categories/:title/
+
+# Añade la siguiente línea para asegurarte de que la carpeta admin se incluya.
+include: ['admin']
 
 # Build settings
 theme: minima
@@ -17,4 +20,3 @@ collections:
   servicios:
     output: true
     permalink: /:collection/:name/
-    baseurl: /Kaperl.github.io
