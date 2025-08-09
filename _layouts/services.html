@@ -6,12 +6,12 @@ layout: default
     <section class="content-section single-service">
         <div class="container">
             {% if page.image %}
-                <img src="{{ page.image | relative_url }}" alt="{{ page.main_title }}" class="post-main-image">
+                <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="post-main-image">
             {% endif %}
 
-            <h1 class="main-title">{{ page.main_title }}</h1>
+            <h1 class="main-title">{{ page.title }}</h1>
             
-            <p class="post-meta">Publicado el {{ page.date | date: "%d de %B, %Y" }} por {{ page.author }}</p>
+            <h2>{{ page.subtitle }}</h2>
             
             <div class="post-content">
                 {{ content }}
