@@ -374,36 +374,19 @@ body {
     margin-right: auto;
 }
 
-/* Título principal de la noticia */
-.blog-single-post h1.main-title {
+.blog-single-post h1 {
     font-size: 40px;
     color: var(--primary-color);
     margin-bottom: 15px;
 }
-
-/* Títulos y subtítulos dentro del contenido de la noticia */
-.blog-single-post .post-content h2 {
+.blog-single-post h3 {
     font-size: 28px;
     color: var(--secondary-color);
     margin-top: 30px;
     margin-bottom: 15px;
 }
 
-.blog-single-post .post-content h3 {
-    font-size: 24px;
-    color: var(--secondary-color);
-    margin-top: 25px;
-    margin-bottom: 15px;
-}
-
-.blog-single-post .post-content h4 {
-    font-size: 20px;
-    color: var(--secondary-color);
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.blog-single-post .post-content p {
+.blog-single-post p {
     font-size: 17px;
     line-height: 1.8;
     color: var(--text-color);
@@ -437,8 +420,8 @@ body {
     color: var(--secondary-color);
 }
 
-/* Nuevas reglas para imágenes y videos dentro del contenido del post */
-.blog-single-post .post-content img,
+/* ===== CORRECCIÓN PARA VIDEOS EN POSTS DE BLOG ===== */
+/* Esta es la única adición para garantizar que los videos se muestren correctamente */
 .blog-single-post .post-content video {
     max-width: 100%;
     height: auto;
@@ -446,7 +429,6 @@ body {
     margin: 20px 0;
     display: block;
 }
-
 
 /* ================================================= */
 /* 5. SECCIÓN DE TESTIMONIOS                         */
