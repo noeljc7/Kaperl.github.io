@@ -1,62 +1,63 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CMS de Cooperativa KAPÉ</title>
-  <base href="/" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMS de Cooperativa KAPÉ</title>
+  <base href="/" />
 </head>
 <body>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script>
-    window.CMS_MANUAL_INIT = true;
-  </script>
-  <script src="https://unpkg.com/decap-cms@^3.0/dist/decap-cms.js"></script>
-  <script>
-    CMS.init({
-      config: {
-        backend: {
-          name: 'git-gateway',
-          branch: 'main'
-        },
-        media_folder: "assets/images",
-        public_folder: "/assets/images",
-        collections: [
-          {
-            name: "posts",
-            label: "Noticias",
-            folder: "_posts",
-            create: true,
-            slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
-            fields: [
-              {label: "Layout", name: "layout", widget: "hidden", default: "single-post"},
-              {label: "Título de la Noticia", name: "title", widget: "string", required: true},
-              {label: "Autor", name: "author", widget: "string", default: "Cooperativa KAPÉ R.L."},
-              {label: "Fecha", name: "date", widget: "datetime", required: true},
-              {label: "Imagen de Portada", name: "image", widget: "image", required: true},
-              {label: "Resumen", name: "excerpt", widget: "text", required: true},
-              {label: "Contenido", name: "body", widget: "markdown", required: true}
-            ]
-          },
-          {
-            name: "servicios",
-            label: "Servicios",
-            folder: "_servicios",
-            create: true,
-            slug: "{{slug}}",
-            fields: [
-              {label: "Layout", name: "layout", widget: "hidden", default: "servicios"},
-              {label: "Título Principal del Servicio", name: "main_title", widget: "string", required: true},
-              {label: "Autor", name: "author", widget: "string", default: "Cooperativa KAPÉ R.L."},
-              {label: "Fecha", name: "date", widget: "datetime", required: true},
-              {label: "Imagen de Portada", name: "image", widget: "image", required: true},
-              {label: "Resumen", name: "excerpt", widget: "text", required: true},
-              {label: "Contenido", name: "body", widget: "markdown", required: true}
-            ]
-          }
-        ]
-      }
-    });
-  </script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    window.CMS_MANUAL_INIT = true;
+  </script>
+  <script src="https://unpkg.com/decap-cms@^3.0/dist/decap-cms.js"></script>
+  <script>
+    CMS.init({
+      config: {
+        backend: {
+          name: 'git-gateway',
+          branch: 'main'
+        },
+        media_folder: "assets/images",
+        public_folder: "/assets/images",
+        collections: [
+          {
+            name: "posts",
+            label: "Noticias",
+            folder: "_posts",
+            create: true,
+            slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+            fields: [
+              {label: "Layout", name: "layout", widget: "hidden", default: "single-post"},
+              {label: "Título de la Noticia", name: "title", widget: "string", required: true},
+              {label: "Autor", name: "author", widget: "string", default: "Cooperativa KAPÉ R.L."},
+              {label: "Fecha", name: "date", widget: "datetime", required: true},
+              {label: "Imagen de Portada", name: "image", widget: "image", required: true},
+              {label: "Resumen", name: "excerpt", widget: "text", required: true},
+              {label: "Contenido", name: "body", widget: "markdown", required: true}
+            ]
+          },
+          {
+            name: "servicios",
+            label: "Servicios",
+            folder: "_servicios",
+            create: true,
+            // Corregido para usar el main_title como slug
+            slug: "{{main_title | slugify}}", 
+            fields: [
+              {label: "Layout", name: "layout", widget: "hidden", default: "servicios"},
+              {label: "Título Principal del Servicio", name: "main_title", widget: "string", required: true},
+              {label: "Autor", name: "author", widget: "string", default: "Cooperativa KAPÉ R.L."},
+              {label: "Fecha", name: "date", widget: "datetime", required: true},
+              {label: "Imagen de Portada", name: "image", widget: "image", required: true},
+              {label: "Resumen", name: "excerpt", widget: "text", required: true},
+              {label: "Contenido", name: "body", widget: "markdown", required: true}
+            ]
+          }
+        ]
+      }
+    });
+  </script>
 </body>
 </html>
