@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<main>
+    <section class="content-section blog-single-post">
+        <div class="container">
+            {% if page.image %}
+                <img src="{{ page.image | relative_url }}" alt="{{ page.main_title }}" class="post-main-image">
+            {% endif %}
+            
+            <h1 class="main-title">{{ page.main_title }}</h1>
+            
+            <p class="post-meta">
+                Publicado el {{ page.date | date: "%d de %B, %Y" }} por {{ page.author }} | 
+                <a href="{{ '/servicios/' | relative_url }}">Volver a Servicios</a>
+            </p>
+            
+            <div class="post-content">
+                {{ content }}
+            </div>
+        </div>
+    </section>
+</main>
