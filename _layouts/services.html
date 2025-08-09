@@ -2,8 +2,20 @@
 layout: default
 ---
 
-<section class="content-section">
-  <div class="container">
-    {{ content }}
-  </div>
-</section>
+<main>
+    <section class="content-section single-service">
+        <div class="container">
+            {% if page.image %}
+                <img src="{{ page.image | relative_url }}" alt="{{ page.main_title }}" class="post-main-image">
+            {% endif %}
+
+            <h1 class="main-title">{{ page.main_title }}</h1>
+            
+            <div class="post-content">
+                {{ content }}
+            </div>
+            
+            <p><a href="{{ '/servicios/' | relative_url }}">Volver a Servicios</a></p>
+        </div>
+    </section>
+</main>
