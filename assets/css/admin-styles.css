@@ -1,0 +1,118 @@
+/* ============================================== */
+/* REGLAS GENERALES PARA PANTALLAS PEQUEÑAS      */
+/* ============================================== */
+
+@media (max-width: 768px) {
+    /* Ajusta el espaciado del cuerpo principal del CMS */
+    body.cms-editor-pane {
+        padding: 10px;
+    }
+
+    /* Oculta elementos que no son necesarios en móvil */
+    .nc-app-body .css-1a1w59-EntryListingHeader-entryListingHeader {
+        display: none !important;
+    }
+    
+    .nc-app-body .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader {
+        display: none !important;
+    }
+
+    /*
+     * Estilos para la barra lateral y el contenido principal
+     * Hacemos que el sidebar sea un bloque y el contenido se adapte.
+     */
+    .css-13b69a2-App-app--sidebarOpen {
+        display: block;
+    }
+
+    /* Asegura que el contenedor principal del editor sea de ancho completo */
+    .css-13b69a2-App-app--sidebarOpen .css-1a1w59-EntryListingHeader-entryListingHeader {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .css-13b69a2-App-app--sidebarOpen .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    /* Corrige el ancho y los márgenes del área principal de la lista */
+    .css-13b69a2-App-app--sidebarOpen .css-6s7m6y-App-app {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /*
+     * Estilos para el encabezado del editor (título y botones)
+     */
+    .nc-app-header .css-1a1w59-EntryListingHeader-entryListingHeader {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .nc-app-header .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Ajusta el menú desplegable de colecciones */
+    .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader-entryListingHeader {
+        width: 100%;
+    }
+    
+    .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader-entryListingHeader {
+        width: 100%;
+    }
+    
+    /* Acomoda los botones del encabezado */
+    .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader-entryListingHeader {
+        margin-top: 10px;
+    }
+    
+    /*
+     * Estilos para la lista de entradas
+     */
+    .nc-entry-card {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    /* Corrige el título de las entradas en la lista */
+    .nc-entry-card .css-1a1w59-EntryListingHeader-entryListingHeader-entryListingHeader {
+        margin-bottom: 5px;
+    }
+    
+    .nc-entry-card .css-1a1w59-EntryListingHeader-entryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader-entryListingHeader {
+        margin-bottom: 5px;
+    }
+
+    /* Oculta los datos de la fecha para mantener un diseño limpio */
+    .nc-entry-card .css-1a1w59-EntryListingHeader-entryListingHeader-entryListingHeader-entryListingHeader {
+        display: none;
+    }
+    
+    /*
+     * Estilos para el editor de contenido
+     */
+    .nc-app-body .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader {
+        display: block;
+        padding: 10px;
+    }
+
+    /* Ajusta el ancho de los campos del formulario */
+    .nc-app-body .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Corrige los botones de acciones del editor */
+    .nc-app-body .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader {
+        flex-direction: column;
+    }
+
+    .nc-app-body .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader .css-1a1w59-EntryListingHeader-entryListingHeader {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
