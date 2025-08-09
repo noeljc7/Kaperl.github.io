@@ -30,7 +30,8 @@
             slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
             fields: [
               {label: "Layout", name: "layout", widget: "hidden", default: "single-post"},
-              {label: "Título de la Noticia", name: "title", widget: "string", required: true},
+              {label: "Título Corto", name: "title", widget: "string", required: true},
+              {label: "Título Principal de la Noticia", name: "main_title", widget: "string", required: true},
               {label: "Autor", name: "author", widget: "string", default: "Cooperativa KAPÉ R.L."},
               {label: "Fecha", name: "date", widget: "datetime", required: true},
               {label: "Imagen de Portada", name: "image", widget: "image", required: true},
@@ -43,7 +44,6 @@
             label: "Servicios",
             folder: "_servicios",
             create: true,
-            // ¡Corrección clave aquí! Usamos 'title' para el slug
             slug: "{{title | slugify}}",
             fields: [
               {label: "Layout", name: "layout", widget: "hidden", default: "servicios"},
