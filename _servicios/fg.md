@@ -1,10 +1,12 @@
 ---
 layout: single-post
 title: Créditos Agrícolas
-main_title: "Más que un préstamo, somos tu aliado estratégico."
+main_title: Más que un préstamo, somos tu aliado estratégico.
 permalink: /servicios/creditos-agricolas/
 image: /assets/images/s1.1.jpeg
-excerpt: "Un breve resumen del servicio que aparecerá en la página principal."
+excerpt: Un breve resumen del servicio que aparecerá en la página principal.
+author: cooperativa kape rl
+date: 2025-08-09T10:49:00.000-06:00
 ---
 
 <img src="{{ page.image | relative_url }}" alt="Imagen principal del servicio" class="post-main-image">
