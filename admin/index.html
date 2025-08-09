@@ -46,13 +46,11 @@
             slug: "{{slug}}",
             fields: [
               {label: "Layout", name: "layout", widget: "hidden", default: "servicios"},
-              {label: "Título Corto", name: "title", widget: "string", required: true},
-              {label: "Título Principal", name: "main_title", widget: "string", required: true},
-              {label: "URL del Servicio", name: "permalink", widget: "string", required: true},
-              {label: "Imagen de Portada", name: "image", widget: "image", required: true},
-              {label: "Resumen", name: "excerpt", widget: "text", required: true},
+              {label: "Título Principal del Servicio", name: "main_title", widget: "string", required: true},
               {label: "Autor", name: "author", widget: "string", default: "Cooperativa KAPÉ R.L."},
               {label: "Fecha", name: "date", widget: "datetime", required: true},
+              {label: "Imagen de Portada", name: "image", widget: "image", required: true},
+              {label: "Resumen", name: "excerpt", widget: "text", required: true},
               {label: "Contenido", name: "body", widget: "markdown", required: true}
             ]
           }
