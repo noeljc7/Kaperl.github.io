@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CMS Admin de Cooperativa KAPÉ</title>
+  <title>CMS de Cooperativa KAPÉ</title>
   <base href="/" />
 </head>
 <body>
@@ -45,13 +45,11 @@
             create: true,
             slug: "{{slug}}",
             fields: [
-              {label: "Layout", name: "layout", widget: "hidden", default: "single-post"},
-              {label: "Título Corto del Servicio", name: "title", widget: "string", required: true},
-              {label: "Título Completo", name: "main_title", widget: "string", required: true},
-              {label: "URL del Servicio (Ej: creditos-agricolas)", name: "permalink", widget: "string", required: true},
+              {label: "Layout", name: "layout", widget: "hidden", default: "servicios"},
+              {label: "Título del Servicio (para la página individual)", name: "title", widget: "string", required: true},
               {label: "Imagen de Portada", name: "image", widget: "image", required: true},
-              {label: "Resumen", name: "excerpt", widget: "text", required: true},
-              {label: "Contenido", name: "body", widget: "markdown", required: true}
+              {label: "Subtítulo (H2)", name: "subtitle", widget: "string", required: true},
+              {label: "Descripción del Servicio", name: "body", widget: "markdown", required: true}
             ]
           }
         ]
