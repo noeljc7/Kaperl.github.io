@@ -11,14 +11,8 @@ Imagina un futuro donde tus proyectos agrícolas florecen sin las limitaciones f
 
 ### Beneficios Clave:
 
-* **Soluciones financieras flexibles:**
-
-   Adaptamos los plazos y las condiciones a los ritmos de tu producción y a las particularidades de tu cultivo.
-* **Tasas competitivas:**
-
-   Porque queremos que tu inversión crezca, no que se vea mermada por intereses excesivos.
-* **Impulsa tu crecimiento:**
-
-   Desde la adquisición de insumos hasta la expansión de tus tierras, te brindamos el capital necesario para llevar tu visión agrícola al siguiente nivel.
+* **Soluciones financieras flexibles:** Adaptamos los plazos y las condiciones a los ritmos de tu producción y a las particularidades de tu cultivo.
+* **Tasas competitivas:** Porque queremos que tu inversión crezca, no que se vea mermada por intereses excesivos.
+* **Impulsa tu crecimiento:** Desde la adquisición de insumos hasta la expansión de tus tierras, te brindamos el capital necesario para llevar tu visión agrícola al siguiente nivel.
 
 **¡Juntos, cultivamos un futuro mejor!**
