@@ -1,0 +1,47 @@
+# /admin/config.yml
+
+# Backend: Configuración de Git
+# Esto conecta el CMS a tu repositorio de GitHub o GitLab.
+backend:
+  name: git-gateway
+  branch: main  # Asegúrate de que esta sea la rama de tu repositorio (puede ser 'master' en algunos casos).
+
+# Medios: Dónde se guardarán las imágenes
+# La carpeta "assets/images/uploads" será usada para todos los archivos subidos.
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+# Colecciones: Define los tipos de contenido de tu sitio
+# Aquí es donde le dices al CMS qué secciones de tu sitio puede editar.
+collections:
+  - name: "posts"
+    label: "Noticias"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Fecha", name: "date", widget: "datetime"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Imagen Principal", name: "image", widget: "image", required: false}
+      - {label: "Resumen", name: "description", widget: "text", required: false}
+      - {label: "Cuerpo del Artículo", name: "body", widget: "markdown"}
+
+  - name: "servicios"
+    label: "Servicios"
+    folder: "_servicios"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
+      - {label: "Ícono o Imagen", name: "icon", widget: "image", required: false}
+      - {label: "Descripción Corta", name: "description", widget: "text", required: false}
+      - {label: "Cuerpo del Servicio", name: "body", widget: "markdown"}
+
+# Editor: Configuración de la interfaz
+# Aquí conectamos el CSS que creamos para que el panel se vea bien en el móvil.
+editor:
+  preview:
+    styles:
+      - /assets/css/admin-styles.css
