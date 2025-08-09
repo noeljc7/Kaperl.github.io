@@ -1150,3 +1150,10 @@ body {
         padding: 20px;
     }
 }
+.post-content video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Para que tenga las esquinas redondeadas */
+    margin: 20px 0; /* Espacio para separar el video del texto */
+    display: block; /* Opcional: para que ocupe su propia línea */
+}
