@@ -4,17 +4,10 @@ title: diversificacion
 main_title: diversificacion prueba 1
 permalink: /servicios/pilones/
 image: /assets/images/s5.1diversificacion.jpeg
-excerpt: nose que es lo que va aqui pero tengo que colocar algo
+excerpt: esto es lo que muestra en la pagina servicios que es el resumen del servicio
 ---
-![que es texto alterno?](/assets/images/s5.1diversificacion.jpeg "no se que es esto")
+# SOBRE ESTE TEXTO EN TEORIA DEBERIA IR EL BTN PARA REGRESAR A LA SECCION SERVICIOS O NOTICIAS ADEMAS DEL POST META
 
-# BUENO ACA ES DONDE VA LO BUENO
+YA AQUI VA EL TEXTO O DESCRIPCION DEL SERVICIO O NOTICIA
 
-#### **que mas podemos hacer creo que es hota de la lista**
-
-1. **asda**
-2. **asdasd**
-3. **gxcvxcv**
-4. **fhfdhdfhd**
-
-**comentario final**
+1. LOS BUENOS SERVICIOS LISTADOS O BENEFICIOS
